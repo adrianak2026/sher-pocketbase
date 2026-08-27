@@ -6,5 +6,4 @@ dbs:
         bucket: pocketbasesher
         path: pb
         force-path-style: true
-        access-key-id: ${B2_KEY_ID}
-        secret-access-key: ${B2_SECRET}
+        
