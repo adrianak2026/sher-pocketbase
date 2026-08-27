@@ -2,8 +2,8 @@ dbs:
   - path: /pb/pb_data/data.db
     replicas:
       - type: s3
-        endpoint: s3.<B2-REGION>.backblazeb2.com
-        bucket: sher-pocketbase
+        endpoint: s3.us-east-005.backblazeb2.com
+        bucket: pocketbasesher
         path: pb
         force-path-style: true
         access-key-id: ${B2_KEY_ID}
